@@ -1,4 +1,4 @@
-module github.com/tempdos/hw01_hello_now
+module github.com/tempdos/hw_test/hw01_hello_now
 
 go 1.14
 
