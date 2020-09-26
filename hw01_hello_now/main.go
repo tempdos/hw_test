@@ -12,7 +12,7 @@ func main() {
 	timer, err := ntp.Time("0.beevik-ntp.pool.ntp.org")
 	t := time.Now()
 	if err != nil {
-		log.Fatalf("error")
+		log.Fatalf("error %e", err)
 		return
 	}
 	fmt.Println("current time:", t.Round(0))
